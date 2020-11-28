@@ -8,7 +8,7 @@ class Agent:<br />
 def value (option: int) -> float: ...<br />
 Returns the value of the current player to the input option<br />
 <br />
-And the following function responsible for the algorithm:<br />
+And the function vcg for the algorithm:<br />
 <br />
 def vcg (agents: List [Agent], num_options: int)<br />
 <br />
