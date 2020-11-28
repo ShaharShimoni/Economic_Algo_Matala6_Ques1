@@ -12,7 +12,7 @@ class Agent:
         return self.worth_for_me[option];
 
 def vcg(agents:List[Agent],num_options:int):
-    max=0;  
+    max=0;
     # finds the max:
     max_option=0;
     for i in range(0,num_options):

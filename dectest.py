@@ -56,7 +56,7 @@ def vcg(agents:List[Agent],num_options:int):
     Agent # 3 pays 0 .
 
     '''
-    max = 0;  # maybe under 0 ?
+    max = 0;  
     # finds the max:
     max_option = 0;
     for i in range(0, num_options):
